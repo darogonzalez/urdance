@@ -1,0 +1,213 @@
+    body{
+        background: none;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    #navbar h1 {
+        display: inline-block;
+        color: #CC3300;
+        display: inline-block;
+        background-image: url(imagenes/logo.png);
+        background-repeat: no-repeat;
+        width: 100px;
+        margin: 0.3em 0;
+        text-indent: -500px;
+        text-align: center;
+    }
+
+    #hamburguesa li {
+        list-style: none;
+        text-indent: -100px;
+        overflow: hidden;
+        margin-top: 0.25em;
+        width: 2.5em;   
+        margin-left: 1em;
+    }
+
+    #hamburguesa li a {
+        background: url("imagenes/menu.png") no-repeat center center;
+        background-size: cover;
+        display: block;
+        height: 2.1em;
+    }
+
+    #hamburguesa li:last-child {
+        display: none;
+    }
+
+    nav:target #barra {
+        left: 0;
+    }
+
+    nav:target #hamburguesa li:first-child {
+        display: none;
+    }
+
+    nav:target #hamburguesa li:last-child {
+        display: block;
+    }
+        
+    #barra{
+        display: inline-block;
+        width: 52%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;     
+    }
+
+    #barra li a{
+        text-align: left;
+        padding-left: 1.5em;
+        line-height: 2.5em;
+    }
+
+    #barra li a:hover{
+        background: #444444;
+    }
+
+    #divtitulo{
+        padding: 1.25em;
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        background:  #eaeaea;
+    }
+
+    #divtitulo p{
+       margin-bottom: 1em;
+    }
+
+    #uno{
+        padding: 0px;
+    }
+
+    #uno img{
+        top: 2em;
+        max-width: 100%;
+        margin-bottom: -6px;
+    }
+
+      #boton1{
+       line-height: 2.5em;
+       width: 100%;
+    }
+
+    .contStyle{
+        
+        flex-direction: column;
+        flex-wrap: nowrap;   
+        padding: 0 0.5em;
+    }
+
+    .divSec {
+        background: white;            
+        padding: 1em 1em;         
+    }
+
+
+    .contStyle div{
+        text-align: center; 
+    }
+
+    .contStyle p{
+        text-align: center;
+        padding: 0.5em 0.5em;
+    }
+
+    #contClases{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contClases div{
+        margin-top: 2em;
+        min-width: 100%;
+    }
+
+    #contProf{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+     #contProf div{
+        padding: 1em 0;
+        width: 50%;
+    }
+
+    .divSec h2 {
+        padding: 1.5em 1em 0.5em 1em;
+
+    }
+
+    #campos label{
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    #contvideo{
+        width: 100%; 
+        border: none;
+    }
+
+    #textvideo{
+        background: white;
+        width: 75% !important; 
+        text-align: center !important;
+    }
+    
+    #campos div{
+        width: 100%;  
+    }  
+        
+    #enviar{
+        padding: 0.5em 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #f6f6f6 !important;
+        margin: 0.5em 0;
+    }
+
+    #enviar input{
+        font-size: 1.4em;
+        line-height: 2.5em;
+        color: white;
+        width: 100%;
+        background: #CC3300 !important;
+        margin-top: 0.5em;
+        margin-right: 0;
+    }
+
+    #enviar input:first-child{
+        color: white;
+        width: 100%;
+        background:  #5d5d5d !important;
+    }     
+
+    footer ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1em;
+    }
+    
+    footer ul li{
+        margin: 0.2em;
+    }

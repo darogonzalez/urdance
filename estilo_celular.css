@@ -1,0 +1,117 @@
+	 body{
+        background: none;
+    }
+
+    #uno img{
+    	position: relative;
+    	top: 2em;
+    }
+
+	#divtitulo{
+		margin-top: 2em;
+		padding: 0.5em  0;
+	}
+
+    #divtitulo p{
+        padding: 0.5em 1em;
+    }
+
+	.contStyle {
+	    padding: 0;
+	}       
+
+	.contStyle p{
+	    padding: 0 1em;
+	}       
+
+	.contStyle div {
+	    border: none;
+	    background: #f6f6f6;
+	    padding: 1.5em 0;
+	    margin: 0.2em 0;
+	}
+
+	.divSec {
+	    background: white;
+	    padding: 0;
+	}
+
+	.contStyle img{
+        max-width: 100%;
+    }
+
+    #contClases div li{
+    	margin: 0;
+    }
+
+    #contProf img{
+        max-width: 100%;
+    }
+
+    #contProf div{
+        padding: 1em 0;
+        width: 50%;
+        border: none;
+    }
+
+    #contvideo{
+        width: 100%; 
+        border: none;
+    }
+
+    #campos label{
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+
+    #textvideo{
+        background: white;
+        width: 95% !important; 
+        text-align: center !important;
+    }
+
+    #campos div{
+            width: 100%;  
+    }  
+
+    #campos{
+    	border: none;
+	}
+
+	#campos input{
+    	border: none;
+    	line-height: 1.8em;
+	}    
+
+    #enviar{
+        padding: 0.5em 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #f6f6f6 !important;
+        margin: 0.5em 0;
+    }
+
+    #enviar input{
+        font-size: 1.4em;
+        line-height: 2.5em;
+        color: white;
+        width: 100%;
+        background: #CC3300 !important;
+        margin-top: 0.5em;
+        margin-right: 0;
+    }
+
+    #enviar input:first-child{
+        color: white;
+        width: 100%;
+        background:  #5d5d5d !important;
+    }       
+         
+
+    footer ul li{
+    	font-size: 1em;
+    }
+
+    
